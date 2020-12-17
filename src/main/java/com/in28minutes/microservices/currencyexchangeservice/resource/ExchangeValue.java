@@ -28,12 +28,12 @@ public class ExchangeValue {
 
 	}
 
-	public ExchangeValue(Long id, String from, String to, BigDecimal conversionMultiple) {
+	public ExchangeValue(Long id, String from, String to, BigDecimal conversionMultiplechange1) {
 		super();
 		this.id = id;
 		this.from = from;
 		this.to = to;
-		this.conversionMultiple = conversionMultiple;
+		this.conversionMultiple = conversionMultiplechange1;
 	}
 
 	public Long getId() {
