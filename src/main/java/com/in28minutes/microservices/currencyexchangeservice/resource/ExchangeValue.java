@@ -19,7 +19,7 @@ public class ExchangeValue {
 	@Column(name = "currency_to")
 	private String to;
 
-	private BigDecimal conversionMultiplechange1;
+	private BigDecimal conversionMultiple;
 
 	@Transient
 	private String exchangeEnvironmentInfo;
@@ -33,7 +33,7 @@ public class ExchangeValue {
 		this.id = id;
 		this.from = from;
 		this.to = to;
-		this.conversionMultiplechange1 = conversionMultiple;
+		this.conversionMultiple = conversionMultiple;
 	}
 
 	public Long getId() {
@@ -49,7 +49,7 @@ public class ExchangeValue {
 	}
 
 	public BigDecimal getConversionMultiple() {
-		return conversionMultiplechange1;
+		return conversionMultiple;
 	}
 
 	public String getExchangeEnvironmentInfo() {
